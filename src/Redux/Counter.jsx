@@ -8,6 +8,7 @@ const dispatch = useDispatch();
 
   return (
     <div>
+        <h1>Belajar Redux Studi Kasus Counter</h1>
        <button onClick={() => dispatch(decrementWhitchCheckingAction(1))}>-</button>
        {'  '}    <span>{count}</span>   {'  '}
        <button onClick={() =>dispatch(increment(1))}>+</button>
